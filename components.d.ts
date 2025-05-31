@@ -9,7 +9,9 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     PButton: typeof import('primevue/button')['default']
+    PrimeAvatar: typeof import('primevue/avatar')['default']
     PrimeButton: typeof import('primevue/button')['default']
+    PrimeCard: typeof import('primevue/card')['default']
     PrimeMenubar: typeof import('primevue/menubar')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
